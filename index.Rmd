@@ -7,6 +7,6 @@ output:
     theme: cerulean
 ---
 
-# This is Maggie's awesome website
+# Welcome!
 
-Welcome to my website! This site in intended to serve as a place to include information on some of my work and prior experiences, as well as to provide contact information. This site was created by me using RStudio, which can serve as an example of my skill in the language.
+Welcome to my website! My name is Magnolia Watson and I am a second year student at the Columbia Univserity Mailman School of Public Health working towards and MPH in Epidemiology with a certificate in Applied Biostatistics and Public Health Data Science. This site in intended to serve as a place to include information on some of my work and prior experiences, as well as to provide contact information. In the drop down bar to the upper right corner you will find links to my email, github, and linkedin accounts. This site was created by me using RStudio, which can serve as an example of my skill in the language.

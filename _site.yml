@@ -3,12 +3,14 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Experience"
+      href: experience.html
     - icon: fa-envelope fa-lg
       href: mailto:<mgw2144@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/magnoliawatson/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/magnoliawatson/
 output:
   html_document:
     theme: cerulean
