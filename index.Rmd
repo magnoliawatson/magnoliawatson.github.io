@@ -9,4 +9,4 @@ output:
 
 # This is Maggie's awesome website
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+Welcome to my website! This site in intended to serve as a place to include information on some of my work and prior experiences, as well as to provide contact information. This site was created by me using RStudio, which can serve as an example of my skill in the language.
