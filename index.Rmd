@@ -1,0 +1,12 @@
+---
+title: "Magnolia Watson MPH"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Maggie's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
