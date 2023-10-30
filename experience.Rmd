@@ -1,5 +1,67 @@
 ---
-title: "experience"
+title: "Resume"
 output: html_document
-date: "2023-10-26"
 ---
+
+# Magnolia Watson
+Mgw2144@cumc.columbia.edu 
+(404)432-5171 
+[LinkedIn](www.linkedin.com/in/magnoliawatson)
+
+# Education
+
+## Columbia University Mailman School of Public Health (New York, NY)
+Degree: Master of Public Health in Epidemiology; Certificate: Applied Biostatistics and Data Science GPA: 4.12
+
+## University of Georgia (Athens, GA)
+Bachelor of Science in Health Promotion and Behavior; Area of Emphasis: Health Promotion Overall GPA: 3.78; Major GPA: 3.92
+
+# Awards 
+University of Georgia Charter Scholarship 2018-2022; Zell Miller Scholarship (highly competitive statewide award); Presidential Scholar 2021; Dean’s List 2019
+
+# Relevant coursework
+
+Professional Writing in Health Promotion; Research Design; Intermediate Biostatistics; Program Planning; Application of Epidemiologic Research Methods; Analysis of Categorical Data, Applied Regression I and II, Personal Leadership in Public Health; Data Science
+
+# Relevant Experience
+
+## Columbia University, Graduate Teaching Assistant (New York, NY)
+August 2023-Present
+
+Quantitative Research Methods and Application teaching assistant.
+Leading labs for 20 students, grading student homework, tests, and labs, and answering student questions.
+Teaching probability, statistical inference, epidemiological concepts, and public health research methods.
+
+## Mallinckrodt Pharmaceuticals, HEOR Intern, (Bridgewater, NJ)
+May 2023-August 2023
+
+Performed literature review on pediatric septic shock and hepatorenal syndrome in the United States.
+Compiled real-world evidence for the use of Terlipressin in pediatrics in the interest of drug life-cycle management.
+Performed statistical analysis of observational data on pediatric patients in the Premier Healthcare Database.
+
+## Centers for Disease Control and Prevention, Early Hearing Detection and Intervention (EHDI) Team, Student Intern, (Atlanta, GA)
+June 2022-August 2022
+
+Conducted evaluation of recent state program data to identify gaps and create guidance for states to improve data collection on early hearing detection and intervention.
+Identified priorities for EHDI improvement nationally and reported to senior leadership.
+Analyzed large datasets (50,000+ entries) in Excel and R and created visuals through R.
+Created evaluation templates for data collection which will be used in state-level data collection.
+
+## UGA Practice, Research and Mentorship in Epidemiology (PRIME), (Athens, GA)
+July 2021-May 2022
+
+Analyzed the effects of air quality on COVID-19 health outcomes using county-level data in R.
+Managed schedule and communications for a group of 6 students in research group, and collaborated in a group setting to further epidemiological research and study design.
+
+## Butterfly Dreams Farms Therapeutic Riding, Volunteer, (Watkinsville, GA) 
+January 2021- June 2021
+
+Handled confidential patient information with discretion and professionalism.
+Involvement in hippotherapy sessions and patient care for individuals with a range of disabilities; communicated with children and adults in a positive and professional manner.
+
+# Skills
+CPR and First Aid Certification
+
+Languages: American Sign Language (basic communication)
+
+Skills: R, SAS, STATA, Microsoft Office, Linear and Logistic Regression, Statistical Analysis, Survival Analysis
