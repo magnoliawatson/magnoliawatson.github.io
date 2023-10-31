@@ -1,0 +1,69 @@
+---
+title: "NYC Inspection Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+
+data("rest_inspec")
+
+nyc_inspections = 
+  rest_inspec %>% 
+  filter(boro == "MANHATTAN") %>% 
+  separate(inspection_date, into = c("year", "month", "day")) %>% 
+  filter(year == "2017") %>% 
+  select(action, boro, critical_flag, cuisine_description, year, inspection_type, score, violation_code, violation_description, zipcode, grade) %>% 
+  mutate(
+    cuisine_description = ifelse(cuisine_description == "CafÃ©/Coffee/Tea", "Cafe/Coffee/Tea", cuisine_description),
+    cuisine_description = ifelse(cuisine_description == "Latin (Cuban, Dominican, Puerto Rican, South & Central American)", "Latin", cuisine_description),
+    cuisine_description = ifelse(cuisine_description == "Bottled beverages, including water, sodas, juices, etc.", "Bottled beverages", cuisine_description)
+  )
+
+nyc_inspection_boro = 
+  rest_inspec %>% 
+  filter(grade == "A") %>% 
+  separate(inspection_date, into = c("year", "month", "day")) %>% 
+  select(action, boro, critical_flag, cuisine_description, year, inspection_type, score, violation_code, violation_description, zipcode, grade) %>% 
+  filter(year %in% c("2014", "2015", "2016", "2017")) %>% 
+  filter(cuisine_description == "Pizza")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+nyc_inspections %>% 
+  mutate(cuisine_description = fct_reorder(cuisine_description, score, .na_rm = TRUE)) %>% 
+  plot_ly(y = ~score, color = ~cuisine_description, type = "box", colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+nyc_inspections %>% 
+  count(grade) %>% 
+  mutate(grade = fct_reorder(grade, n)) %>% 
+  plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar", colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+nyc_inspection_boro %>% 
+  group_by(year, boro, grade) %>% 
+  summarise(count = n()) %>% 
+  plot_ly(x = ~year, y = ~count, color = ~boro, type = "scatter", colors = "viridis", mode = "markers") 
+```
