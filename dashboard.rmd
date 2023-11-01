@@ -39,7 +39,7 @@ nyc_inspection_boro =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Score Distribution For by Cuisine Type in Manhattan in 2017
 
 ```{r}
 nyc_inspections %>% 
@@ -50,7 +50,7 @@ nyc_inspections %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Resturant Graed Distribution In Manhattan in 2017
 
 ```{r}
 nyc_inspections %>% 
@@ -59,7 +59,7 @@ nyc_inspections %>%
   plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar", colors = "viridis")
 ```
 
-### Chart C
+### Count of Resturants with an A Grade by Boro 2014-2017
 
 ```{r}
 nyc_inspection_boro %>% 
